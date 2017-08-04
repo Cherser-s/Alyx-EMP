@@ -1,8 +1,8 @@
 AddCSLuaFile('shared.lua')
 AddCSLuaFile('cl_init.lua')
 
-include("includes/EMP_Handler/EMPHandler.lua")
-include("includes/EMP_Handler/basic_handlers.lua")
+include("includes/emp_handler/emphandler.lua")
+include("includes/emp_handler/basic_handlers.lua")
 include('shared.lua')
 
 
