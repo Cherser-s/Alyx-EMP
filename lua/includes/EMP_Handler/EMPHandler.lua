@@ -11,10 +11,6 @@ function EMP:New()
 end
 
 function EMP:AddHandler(enttype,handler)
-  if self.Handlers[enttype] then
-    return
-  end
-
   if not (isfunction(handler.Handle_Mouse1) and isfunction(handler.Handle_Mouse2)) then
     error("Entity handler must contain two methods Handle_Mouse1 and Handle_Mouse2.")
   end

@@ -1,3 +1,4 @@
+
 local basic_handlers = {
 	gmod_combine_lock={
 		Handle_Mouse1=function(caller,ent)
@@ -12,12 +13,16 @@ local basic_handlers = {
 			local hacked=ent:GetSaveTable().m_bHackedByAlyx
 			if hacked then
 				ent:SetSaveValue( "m_bHackedByAlyx", false )
+				ent:SetSubMaterial(0,"models/roller/rollermine_sheet")
+				ent:SetSubMaterial(1,"models/roller/rollermine_glow")
 			else
 				ent:SetSaveValue( "m_bHackedByAlyx", true )
+				ent:SetSubMaterial(0,"models/Roller/rollermine_hacked")
+				ent:SetSubMaterial(1,"models/roller/rollermine_gloworange")
 			end
 		end,
 		Handle_Mouse2=function(caller,ent)
-
+				--should explode here
 		end
 	},
 	func_door={
