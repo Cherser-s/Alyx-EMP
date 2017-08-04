@@ -11,14 +11,8 @@ util.PrecacheModel("models/alyx_emptool_prop.mdl")
 
 function SWEP:Initialize()
   self:SetHoldType(self.HoldType)
-
-<<<<<<< HEAD
   local EMPModel=ClientsideModel("models/alyx_emptool_prop.mdl")
   local EMPModel2=ClientsideModel("models/alyx_emptool_prop.mdl")
-=======
-  local EMPModel=ents.CreateClientProp("models/alyx_emptool_prop.mdl")
-  local EMPModel2=ents.CreateClientProp("models/alyx_emptool_prop.mdl")
->>>>>>> abb190935dbb6faf0efee043821009dacec83392
   self:SetNoDraw(true)
 
   self.EMP=EMPModel --view model
