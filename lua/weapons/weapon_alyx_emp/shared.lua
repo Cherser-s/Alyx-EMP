@@ -1,7 +1,7 @@
 
 SWEP.ClassName = "weapon_alyx_emp"
 SWEP.Spawnable = true
-SWEP.AdminOnly = true
+SWEP.AdminOnly = false
 SWEP.PrintName="Alyx EMP tool"
 SWEP.Author = "Cherser"
 SWEP.HoldType = "pistol"
