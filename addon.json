@@ -1,0 +1,13 @@
+{
+	"title"		:	"Alyx EMP",
+	"type"		:	"weapon",
+	"tags"		:	[ "roleplay", "fun" ],
+	"ignore"	:
+	[
+		"*.git*",
+		"*.svn*",
+		"*.py",
+		"*.md",
+		"*LICENSE*"
+	]
+}
