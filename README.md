@@ -1,4 +1,4 @@
-# Alyx-EMP
+# alyx-emp
 
 An EMP device used by Alyx from Half-Life 2 for Garry's Mod.
 
